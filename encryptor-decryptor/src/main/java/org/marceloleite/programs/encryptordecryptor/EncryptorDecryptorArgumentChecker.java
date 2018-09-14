@@ -32,7 +32,7 @@ public class EncryptorDecryptorArgumentChecker {
 
 		String text = args[args.length - 1];
 
-		Optional<String> keyEnvironmentVariableName = argumentsUtils.retrieveArgument(args, "-e");
+		Optional<String> keyEnvironmentVariableName = argumentsUtils.retrieveArgument(args, "-n");
 
 		Optional<String> key = argumentsUtils.retrieveArgument(args, "-k");
 
